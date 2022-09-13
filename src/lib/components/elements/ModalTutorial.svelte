@@ -73,7 +73,7 @@
                     <h3 class="font-semibold text-lg">Welcome to MapColPal!</h3>
                     <div class="ml-4">
                         <p class="pt-4">
-                            MapColPal, is a tool to ease working with color palettes for thematic
+                            MapColPal is a tool to ease working with color palettes for thematic
                             maps.
                         </p>
                         <p class="pt-4">
@@ -100,7 +100,7 @@
                     <h3 class="font-semibold text-lg">Start panel</h3>
                     <div class="ml-4">
                         <p class="pt-4">
-                            On the start panel, you create seed colors, which are the basis for the
+                            On the start panel, you create seed colors which are the basis for the
                             palette derivation in the next step and allow to derive multiple related
                             color palettes based on the same shared set of colors.
                         </p>
