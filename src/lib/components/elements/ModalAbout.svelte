@@ -44,7 +44,8 @@
                 href="https://github.com/svelte-add/svelte-add"
                 target="_blank"
                 class="link hover:text-secondary-focus">svelte-add</a
-            >.<br />The user interface uses flat shading inspired by and loosely designed after the classic Tanaka contours.<br />Using the following npm packages: d3, chroma-js, leaflet,
+            >.<br />The user interface uses flat shading inspired by and loosely designed after the
+            classic Tanaka contours.<br />Using the following npm packages: d3, chroma-js, leaflet,
             leaflet-providers, merge-images, and color-blind.
         </p>
         <h3 class="font-semibold pt-4">Sources</h3>
@@ -83,7 +84,13 @@
             </li>
         </ul>
         <h3 class="font-semibold pt-4">License</h3>
-        <p>Will be added after code is open-sourced. For now: MapColPal © Valerian Lange.</p>
+        <p>
+            MapColPal © Valerian Lange under the MIT license. See <a
+                href="https://github.com/justvalerian/mapcolpal"
+                class="link hover:text-secondary-focus"
+                target="_blank">code repository</a
+            > for details.
+        </p>
     </div>
     <div class="grow flex flex-row justify-end items-end">
         <p class="flex-none">
