@@ -1,4 +1,4 @@
-# MapColPal - your pal for cartograpihc color palettes
+# MapColPal - your pal for cartographic color palettes
 
 MapColPal is a tool to ease working with color palettes for thematic maps.
 It was originally created as part of a thesis within the Cartography M.Sc. programme and is currently maintained as a personal project. Feel free to reach out if you want to get involved!
