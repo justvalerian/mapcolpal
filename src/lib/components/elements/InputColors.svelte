@@ -259,7 +259,7 @@
                 {#each $seedColors as obj, i}
                     <div
                         draggable={true}
-                        class="p-2 m-1 pb-4 bg-base-100 z-20 rounded-lg border-4 border-opacity-75 border-l-white border-t-white border-b-gray-300 border-r-gray-300 active:border-opacity-100"
+                        class="p-2 m-1 pb-4 bg-base-100 z-20 rounded-lg border-4 border-opacity-75 border-l-white border-t-white border-b-gray-300 border-r-gray-300 active:border-opacity-100 hover:cursor-grab active:cursor-grabbing"
                         id={pointInput ? "pointInput" + obj.id : "areaInput" + obj.id}
                         bind:this={cardReference[i]}
                         on:dragstart={(event) => dragstart(event, obj.id)}
@@ -267,7 +267,7 @@
                             dropInOutElement(event, cardReference[i], obj.id)}
                         on:dragover|preventDefault={(event) => dragover(event)}
                     >
-                        <input class="w-12 h-12" bind:value={obj.color} type="color" />
+                        <input class="w-12 h-12 hover:cursor-pointer" bind:value={obj.color} type="color" />
                         <p class="w-full text-center text-2xs">{obj.color}</p>
                     </div>
                 {/each}

@@ -402,11 +402,12 @@
         <div class="flex flex-row flex-wrap pt-2">
             {#each $seedColors as obj}
                 <div class="relative">
-                    <label class="w-full text-center text-2xs absolute bottom-0" for={obj.color}
-                        >{obj.color}</label
+                    <label
+                        class="w-full text-center text-2xs absolute bottom-0 hover:cursor-pointer"
+                        for={obj.color}>{obj.color}</label
                     >
                     <input
-                        class="w-12 h-12 mb-4 mx-1"
+                        class="w-12 h-12 mb-4 mx-1 hover:cursor-pointer"
                         bind:value={obj.color}
                         id={obj.color}
                         type="color"
